@@ -1,0 +1,32 @@
+#q1{
+	background-color: red;
+	border: dashed 5px;
+	width: 500px;
+	height: 500px;
+}
+#q2{
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-style: none;
+}
+#q3{
+	position: absolute;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+	border-style: none;
+}
+#q4{
+	position: absolute;
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
+	border-style: none;
+}
