@@ -1,2 +1,2 @@
-# Treeinamento-S4W
+# Treinamento-S4W
 Repositório para exercícios do treinamento da S4W
