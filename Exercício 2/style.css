@@ -1,0 +1,46 @@
+#q1{
+	margin-left: 0px;
+	background-color: yellow;
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+
+#q2{
+	width: 100%;
+	height: 80%;
+	background-color: red;
+}
+
+#q3{
+	margin-left: 20%;
+	height: 100%;
+	width: 60%;
+	background-color: green;
+	position: relative; 
+}
+
+#q4{
+	margin-left: 50%;
+	width: 50%;
+	height: 60%;
+	background-color: orange;
+	position: absolute;
+}
+
+#q5{
+	margin-left: 50%;
+	width: 50%;
+	height: 80%;
+	background-color: white;
+	position: absolute;
+}
+
+#q6{
+	margin-left: 30%;
+	margin-top: 25%;
+	width: 40%;
+	height: 25%;
+	background-color: #4d4d4d;
+	position: absolute;
+}
