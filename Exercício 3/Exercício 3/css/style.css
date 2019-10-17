@@ -1,0 +1,106 @@
+.pagina{
+	display: grid;
+	grid-template-rows: 210px 1fr 1fr;
+	row-gap: 10px;
+	justify-content: center;
+}
+.principal{
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #999999;
+	text-align: center;
+}
+
+p{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+li{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Perfil{
+	border-radius: 10px;
+	width: 200px;
+	height: 200px;
+	border: groove black;
+}
+
+.info{
+	border-radius: 10px;
+	background-color: #999999;
+}
+
+.Redes{
+	border-radius: 10px;
+	text-align: center;
+	height: 150px;
+	background-color: #999999;
+}
+
+.nome{
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	background-color: #999999;
+}
+
+.center{
+	border-radius: 10px;
+	text-align: center;
+}
+
+.voltar{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+header{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 200px 1fr;
+	column-gap: 20px;
+}
+
+body{
+	max-width: 100%;
+	background: linear-gradient(90deg, #e6e6e6, #bfbfbf)
+}
+
+table,
+td {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table{
+	width: 640.38px;
+}
+
+a{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px 5px;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	height: 20px;
+	background-color: white;
+}
+
+a:hover{
+	background-color: black;
+	color: white;
+}
+
+a:hover:visited{
+	color: white;
+}
+a:visited{
+	color: black;
+}
