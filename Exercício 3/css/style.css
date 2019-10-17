@@ -1,45 +1,63 @@
-.Nome{
+.pagina{
+	display: grid;
+	grid-template-rows: 200px 1fr 1fr;
+	width: 100%;
+	row-gap: 20px;
+	justify-content: center;
+}
+.principal{
+	padding: 5px;
+	background-color: #999999;
 	text-align: center;
+}
+
+p{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+li{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Perfil{
-	width: 15%;
-	float: left;
+	width: 200px;
+	height: 200px;
+	border: groove black;
 }
 
-.centro{
-	text-align: center;
-}
-
-.principal{
-	background-color: #999999; 
-	clear: both;
-	text-align: center;
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 10px;
-	padding-top: 5px;
+.info{
+	background-color: #999999;
 }
 
 .Redes{
-	margin-left: 20%;
-	width: 60%;
 	text-align: center;
-	padding-bottom: 30px;
+	height: 150px;
+	background-color: #999999;
 }
 
-#horarios{
-	width: 100%;
+.nome{
+	padding: 5px;
 	text-align: center;
-	margin-bottom: 20px;
+	background-color: #999999;
+}
+
+.center{
+	text-align: center;
+}
+
+.voltar{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+#horarios{
+	text-align: center;
 }
 
 header{
-	width: 50%;
-	text-align: center;
-	margin-left: 25%;
-	height: 100px;
-	background-color: #999999;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 200px 1fr;
+	column-gap: 20px;
 }
 
 body{
@@ -47,15 +65,9 @@ body{
 	background: linear-gradient(90deg, #e6e6e6, #bfbfbf)
 }
 
-h1{
-	float: center
-}
-h2{
-	margin-bottom: 5px;
-}
-
 table,
 td {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid #333;
 }
 
