@@ -3,13 +3,13 @@
 	width: 100%;
 	grid-template-rows: 200px 400px 250px 50px;
 	grid-template-columns: 1025px;
-	grid-row-gap: 10px;
+	row-gap: 10px;
 	justify-content: center;
 }
 
 .header{
 	display: grid;
-	grid-template-columns: 200px 820px;
+	grid-template-columns: 200px 1fr;
 	grid-column-gap: 5px;
 	justify-content: center;
 }
