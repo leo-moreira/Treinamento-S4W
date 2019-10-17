@@ -30,6 +30,7 @@ ul li:hover ul{
 }
 
 ul li:hover ul li{
+	margin-top: -1px;
 	border: solid 1px black;
 }
 
