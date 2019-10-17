@@ -1,0 +1,62 @@
+nav ul{
+	margin: 0px; padding: 0;
+	width: 200px;
+	display: block;
+	list-style: none;
+}
+
+li{
+	width: 200px;
+	height: 100px;
+	display: block;
+}
+
+ul li{
+	display: block;
+	position: relative;
+}
+
+li ul{
+	position: absolute;
+	display: none;
+	margin-left: 200px;
+	margin-top: 0px;
+}
+
+ul li:hover ul{
+	top: 0;
+	float: left;
+	display: block;
+}
+
+ul li:hover ul li{
+	border: solid 1px black;
+}
+
+.b1{
+	background-color: red;
+}
+
+.b2{
+	background-color: blue;
+}
+
+.b3{
+	background-color: pink;
+}
+
+.b4{
+	background-color: yellow;
+}
+
+.b5{
+	background-color: green;
+}
+
+.b6{
+	background-color: gray;
+}
+
+.b6:hover{
+	background-color: #5dd5d5;
+}
