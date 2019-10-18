@@ -4,9 +4,22 @@
 	row-gap: 10px;
 	justify-content: center;
 }
+
+.upbox{
+	background-color: aquamarine;
+	width: 80%;
+	height: 30px;
+	margin-bottom: -50px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 10px;
+}
+
+#horarios{
+	margin: 5px;
+	border-radius: 10px;
+}
 .principal{
 	border-radius: 10px;
-	padding: 5px;
 	background-color: #999999;
 	text-align: center;
 }
@@ -84,17 +97,24 @@ body{
 table,
 td {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1px solid #333;
+	border: 1px solid #333;
+	border-radius: 10px;
 }
 
 thead,
 tfoot {
     background-color: #333;
-    color: #fff;
+	color: #fff;
+	border-radius: 10px;
 }
 
 table{
 	width: 640.38px;
+	border-radius: 10px;
+}
+
+table th{
+	border-radius: 10px;
 }
 
 a{
