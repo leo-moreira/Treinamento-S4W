@@ -158,3 +158,24 @@ a:visited{
 	background-color: blue;
 	color: white;
 }
+
+li a{
+	color: #e6e6e6;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+li a:visited{
+	color: #e6e6e6;
+	background-color: transparent;
+}
+
+li a:hover{
+	color: aquamarine;
+	background-color: transparent;
+}
+
+li a:visited:hover{
+	color: aquamarine;
+	background-color: transparent;
+}
