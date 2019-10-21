@@ -1,0 +1,284 @@
+body{
+	margin: 0;
+}
+
+.pagina{
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-rows: 300px 131px 1fr 150px;
+}
+
+.top{
+	display: grid;
+	grid-template-columns: 35% 65%;
+}
+
+.gov{
+	width: 100%;
+	background-color: #222222;
+	height: 30px;
+}
+.topnav{
+	height: 30px;
+	background-color: #222222;
+	width: 100%;
+}
+
+.topnav ul{
+	color: white;
+	text-decoration: none;
+	margin: 4px;
+	margin-left: 25%;
+	display: inline-block;
+	position: relative;
+}
+
+.topnav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+.topnav ul li{
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: solid 1px white;
+	display: inline-block;
+	position: relative;
+	list-style: none;
+}
+
+
+.topnav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: Raleway,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+.head a{
+	text-decoration: none;
+	width: 160px;
+	display: inline-block;
+	position: relative;
+	color: #005c7a;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1rem;
+	margin: 0px 10px;
+}
+
+.topnav ul ul{
+	font-family: Raleway,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 0.7em;
+	margin: 3px;
+	margin-left: -20px;
+}
+
+.head{
+	width: 100%;
+	padding-left: 5px;
+}
+
+.head ul{
+	display: inline-block;
+	position: relative;
+	padding-left: 0%;
+}
+
+.head ul li{
+	width: 155px;
+	display: inline-block;
+	position: relative;
+	color: #005c7a;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1rem;
+	margin: 0px 12px;
+}
+
+.head ul img{
+	margin-right: -70px;
+	padding-left: 60px;
+}
+
+header{
+	display: grid;
+	grid-template-rows: 30px 1fr;
+}
+
+.slide{
+	margin-top: -100px;
+	width: 100%;
+}
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: left;
+}
+
+.serv{
+	margin-top: 30px;
+	width: 80%;
+}
+
+ul{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	color: #005c7a;
+}
+
+ul li{
+	color: #212529;
+	text-align: right;
+	font-size: .9rem;
+	font-weight: 300;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	box-sizing: border-box; 
+}
+
+h2{
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #005c7a;
+    font-size: 1.45rem;
+	margin-bottom: .8rem;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	line-height: 1.2;
+}
+
+.imprensa{
+	color: #0167d4;
+}
+
+.imprensa:visited{
+	color: #0167d4;
+}
+
+.imp{
+	text-align: left;
+	text-decoration: none;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.imp:visited{
+	color: #025c75;
+}
+
+.mais{
+	margin-left: 220px;
+	text-align: end;
+	text-decoration: none;
+	color: #231f20;
+	align-items: center!important;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+.mais:hover{
+	animation-name: mais;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.mais:visited{
+	text-align: end;
+	text-decoration: none;
+}
+
+.maisimg{
+	margin-left: 5px;
+	margin-bottom: -10px;
+}
+
+.maisimg:hover{
+	animation-name: maisAnim;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes maisAnim{
+	0%{
+		padding-left: 0px;
+	}
+	100%{
+		padding-left: 15px;
+	}
+}
+
+@keyframes mais{
+	0%{
+		padding-right: 0px;
+	}
+	100%{
+		padding-right: 15px;
+	}
+}
+
+.panorama .mais{
+	margin-left: 300px;
+	text-align: end;
+	text-decoration: none;
+	color: #231f20;
+	align-items: center!important;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.func{
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+footer{
+	padding-left: 20px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	background-color: #f9f9f9;
+	width: 100%;
+	margin-top: 50px;
+}
+
+footer p{
+	width: 340px;
+    font-style: italic;
+    color: #025c75;
+	font-size: .9rem;
+	font-family: Ubuntu,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+
+footer ul li{
+	text-decoration: none;
+}
+
+footer ul li a:visited{
+	text-decoration: none;
+	color: #0056b3;
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+	color: #0056b3;
+}
+
+.footer-right{
+	padding-left: 200px;
+}
