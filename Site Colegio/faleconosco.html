@@ -7,7 +7,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
-    <title>Infraestrutura</title>
+    <title>Fale Conosco</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
                                 </li>
                                 <li class="borda"></li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="faleconosco.html">Fale Conosco</a>
+                                    <a class="nav-link" href="#">Fale Conosco</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,7 +56,7 @@
                                             <li><a class="m-2" href="#">Diretrizes</a></li>
                                             <li><a class="m-2" href="#">Apresentação</a></li>
                                             <li><a class="m-2" href="#">Horário de Atendimento</a></li>
-                                            <li><a class="m-2" href="#">Infraestrutura</a></li>
+                                            <li><a class="m-2" href="infraestrutura.html">Infraestrutura</a></li>
                                             <li><a class="m-2" href="#">Equipe Pedagógica</a></li>
                                         </ul>
                                     </li>
@@ -141,10 +141,10 @@
     <div class="container-fluid conteudo">
         <div class="container">
             <div id="foto">
-                <img src="img/foto.png" alt="Foto do Colégio" class="img-fluid">
+                <img src="img/faleConosco.jpg" alt="Foto do Colégio" class="img-fluid">
             </div>
             <div class="col-lg-12 col-md-12 guia py-2">
-                <p class="pl-3">Home>O colégio>Infraestrutura</p>
+                <p class="pl-3">Home>Fale Conosco</p>
             </div>
         </div>
     </div>
@@ -153,176 +153,42 @@
             <div class="col-sm-12 col-lg-12 col-md-12 px-0 mx-0">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card1.png" class="card-img-top img-fluid" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Entrada principal</b> - apresenta influências
-                                    arquitetônicas em
-                                    estilo sóbrio e eclético, além da paisagem magnífica</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control rounded-0">
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control rounded-0">
+                            </div>
+                            <div class="form-group">
+                                <label for="fone">Fone</label>
+                                <input type="text" class="form-control rounded-0">
+                            </div>
+                            <div class="form-group">
+                                <label for="categoria">Categoria</label>
+                                <input type="text" class="form-control rounded-0">
+                            </div>
+                        </form>
                     </div>
                     <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card2.png" class="card-img-top img-fluid" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Educação infantil</b> - entrada exclusiva para os
-                                    pequenos, possui
-                                    estilo lúdico que encanta as crianças.</p>
-                            </div>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea class="form-control rounded-0" rows="8" style="resize: none;"></textarea>
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="form-control rounded-0 enviar border-secondary">Enviar Mensagem</button>
+                              </div>
+                        </form>
                     </div>
                     <div class="col-lg-4 col-md-4 mt-3 guiaLateral text-center ">
-                        <div class="card py-3 rounded-0" style=" height: 20rem;">
-                            <table class="border-0">
-                                <h2><b>O COLÉGIO</b></h2>
-                                </tr>
-                                <hr class="mx-5 my-1 py-1">
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Apresentação e hino do colégio</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">História</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Missão e Visão</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Diretrizes</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Proposta pedagógica</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Horário de atendimento</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#">Localização</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="border-0 py-0"><a href="#"><strong>Infraestrutura</strong></a></td>
-                                </tr>
-                            </table>
+                        <div class="card py-3 rounded-0 faleConosco" style=" height: 20rem;">
+                            <h2><b>Colégio N.Sª Do Rosário</b></h2>
+                            <hr class="mx-5 my-1 py-1">
+                            <p>Rua Tiradentes 190<br>Centro | Cornélio Procópio-PR<br>CEP-86300-000<br><br>Fone: (43) 3524 1488</p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card3.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Recepção</b> - ambiente diferenciado para recepção
-                                    de todos, com
-                                    muita cordialidade e hospitalidade.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card4.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Capela</b> - espaço de espiritualidade e culto a
-                                    Deus, favorece a
-                                    paz interior e o exercício da educação da fé.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 guiaLateral text-center ">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card5.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Salas de aula</b> - modernas e confortáveis, as
-                                    salas são propícias
-                                    ao aprendizado dos nossos alunos.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card6.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Biblioteca</b> - a leitura é essencial para a
-                                    formação e por esta
-                                    razão possui um acervo diversificado.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3 guiaLateral text-center ">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card7.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Pátio</b> - seja para os estudos, convivência ou
-                                    lazer, oferece
-                                    vasto espaço repleto de verde.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card8.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Playground</b> - um dos ambientes preferidos das
-                                    crianças, combina
-                                    aprendizado e diversão.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3 guiaLateral text-center ">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class=" col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card9.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Quadra esportiva</b> - espaço amplo para a
-                                    realização da Educação
-                                    Física e suas modalidades esportivas.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card10.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Quadra de areia</b> - área para prática esportiva e
-                                    recreativa, além
-                                    das atividades extracurriculares.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3 guiaLateral text-center ">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style="height: 20rem;">
-                            <img src="img/card11.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2">
-                                <p class="card-text text-center"><b>Laboratório de ciências</b> - possui recursos
-                                    específicos para
-                                    atividades práticas com muita segurança.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 mt-3">
-                        <div class="card rounded-0" style=" height: 20rem;">
-                            <img src="img/card12.png" class="card-img-top img-fluid rounded-0" alt="Card1">
-                            <div class="card-body py-2 text-center">
-                                <p class="card-text"><b>Laboratório de informática</b> - dispõe de equipamentos modernos
-                                    para um aprendizado diferenciado.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 col-md-4 guiaLateral text-center ">
                     </div>
                 </div>
             </div>
@@ -345,7 +211,7 @@
                                 <li><a href="#">Proposta pedagógica</a></li>
                                 <li><a href="#">Horário de atendimento</a></li>
                                 <li><a href="#">Localização</a></li>
-                                <li><a href="#">Infraestrutura</a></li>
+                                <li><a href="infraestrutura.html">Infraestrutura</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-3 rodape pr-0">
@@ -409,7 +275,7 @@
                                 <li><a href="#"><strong>SISTEMA ANGLO PARA ALUNOS</strong></a></li>
                                 <li><a href="#"><strong>TV ANGLO</strong></a></li>
                                 <li><a href="#"><strong>MATRÍCULAS</strong></a></li>
-                                <li><a href="faleconosco.html"><strong>FALE CONOSCO</strong></a></li>
+                                <li><a href="#"><strong>FALE CONOSCO</strong></a></li>
                             </ul>
                         </div>
                     </div>

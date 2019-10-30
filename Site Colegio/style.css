@@ -154,3 +154,16 @@ h4 {
 .bordaRodape {
     border-color: rgb(212, 212, 212);
 }
+
+.enviar{
+    color: #d95717;
+    background-color: #b8b6b8;
+}
+
+.faleConosco{
+    font-size: 16px;
+}
+
+form label{
+    font-weight: bold;
+}
