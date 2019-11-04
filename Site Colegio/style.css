@@ -1,169 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,400i|Alegreya+Sans:400,400i|Alegreya:400i,900i');
+
 body {
-    font-size: 14px;
-    line-height: 1.42857143;
+	font-size: 14px;
+	line-height: 1.42857143;
+	font-family: Alegreya Sans;
 }
 
-.container .row {
-    margin: 0%;
+h2 {
+	font-size: 24px;
 }
 
 #menuTop {
-    background-color: rgb(248, 248, 248);
-    font-size: 12px;
+	background-color: rgb(248, 248, 248);
+	font-size: 0.97em;
+	line-height: 1.7;
+	color: #333;
 }
 
 #menu {
-    font-size: 11px;
-    font-weight: bold;
-    width: 100%;
+	font-size: 0.96em;
+	font-weight: bold;
+	width: 100%;
+}
+
+.navlink .dropdown-menu {
+	left: 100%;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	margin-top: -1px;
+}
+
+.fundo {
+	background-color: #b8b6b8;
 }
 
 #menu a:hover {
-    color: #d95717;
+	color: #f47618;
+	border-style: none;
+}
+
+.nav-link ul:hover .dropdown-menu {
+	visibility: visible;
+}
+
+@media (min-width: 979px) {
+	ul.nav li.dropdown:hover > ul.dropdown-menu {
+		display: block;
+	}
+}
+
+li .border {
+	border-color: #f47618 !important;
 }
 
 #menuTop a:hover {
-    color: #d95717;
+	color: #d95717;
+	border: none;
 }
 
 #menuTop .borda {
-    border-left: 1px solid #6f6e6e;
-    height: 18px;
-    margin-top: 11px;
+	border-left: 1px solid #6f6e6e;
+	height: 18px;
+	margin-top: 11px;
 }
 
 #menuTop a {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 #menu .borda {
-    border-left: 2px solid rgb(205, 202, 202);
-    height: 50px;
-    margin-top: 11px;
+	border-left: 2px solid rgb(205, 202, 202);
+	height: 50px;
+	margin-top: 11px;
 }
 
 #menu .nav-tabs .normal .dropdown-toggle {
-    height: 70px;
+	height: 70px;
 }
 
 #menu ul li .dropdown-toggle {
-    line-height: 110%;
+	line-height: 110%;
+	font-size: 0.96em;
+	font-weight: bold;
 }
 
 #menu ul li a {
-    margin-top: 15px;
-    width: 100%;
-    border: 0px;
-    color: Black;
+	margin-top: 15px;
+	width: 100%;
+	border: 0px;
+	color: Black;
 }
 
 .dropdown-menu {
-    font-size: 12px;
-    line-height: 25px;
-    font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: normal;
 }
 
 .border-top {
-    color: #d95717;
+	color: #d95717;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 #menu ul .centro {
-    margin-top: 3px;
+	margin-top: 3px;
 }
 
 #menu .meio {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 .nav-tabs {
-    border: 0px;
+	border: 0px;
 }
 
 #foto {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .conteudo {
-    background-color: #e4e4e6;
+	background-color: #e4e4e6;
 }
 
 .guia {
-    background-color: #d95717;
-    color: white;
-    text-decoration: none;
-    height: 40px;
+	background-color: #d95717;
+	color: white;
+	text-decoration: none;
+	height: 40px;
 }
 
 .guiaLateral h2 {
-    color: #d95717;
-    font-size: 19px;
+	color: #d95717;
+	font-size: 24px;
 }
 
 .guiaLateral td {
-    font-size: 16px;
-    line-height: 28px;
+	font-size: 1.18em;
+	line-height: 210%;
 }
 
 .guiaLateral a {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .guiaLateral a:hover {
-    color: #d95717;
-    text-decoration: underline;
+	color: #d95717;
+	text-decoration: underline;
 }
 
 .card-text {
-    font-size: 16px;
-}
-
-.rodape {
-    background-color: #b8b6b8;
+	font-size: 1.15em;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .rodape ul {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    padding-left: 15px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	padding-left: 15px;
+}
+
+.card {
+	border: 1px solid #ccc !important;
 }
 
 .rodape ul li a {
-    color: black;
-    font-size: 12px;
+	color: black;
+	font-size: 14px;
+	line-height: 1.42857143;
 }
 
 .rodape ul li a:visited {
-    color: black;
+	color: black;
 }
 
 h4 {
-    font-size: 12px;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+h4 a {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.1;
 }
 
 .facebook {
-    margin-left: -10px;
+	margin-left: -10px;
 }
 
 .bordaRodape {
-    border-color: rgb(212, 212, 212);
+	border-color: rgb(212, 212, 212);
 }
 
 .enviar {
-    color: #d95717;
-    background-color: #b8b6b8;
+	color: #d95717;
+	background-color: #b8b6b8;
 }
 
 .faleConosco {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 form label {
-    font-weight: bold;
+	font-weight: bold;
 }
