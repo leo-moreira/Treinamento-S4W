@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+    background-color: #fcffff;
+    font-family: 'LondonMM';
+}
+
+h3 {
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: LondonMM;
+    font-style: normal;
+    font-weight: 400;
+    src: local('LondonMM'), url(fonts/LondonMM.woff) format('woff')
+}
+
+@font-face {
+    font-family: LondonBetween;
+    font-style: normal;
+    font-weight: 400;
+    src: local('LondonBetween'), url(fonts/LondonBetween.woff) format('woff')
+}
+
+@font-face {
+    font-family: LondonTwo;
+    font-style: normal;
+    font-weight: 400;
+    src: local('LondonTwo'), url(fonts/LondonTwo.woff) format('woff');
+}
+
+#conteudo {
+    background-image: url(../img/agencia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line {
+    width: 100vh
+}
+
+#cards {
+    background-image: url(../img/aprenda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cards h5 {
+    font-family: 'Lato';
+}
+
+#cards a {
+    color: #ed2f59;
+    font-family: 'Lato';
+}
+
+#cards a:hover {
+    text-decoration: underline;
+}
+
+#apresentacao {
+    height: 100vh;
+    background-color: transparent!important;
+    padding-top: 40vh;
+}
+
+#apresentacao a {
+    color: #000;
+    border-color: #ed2f59;
+    background-color: transparent!important;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+
+#apresentacao a:hover {
+    color: #fff;
+    border-color: #ed2f59;
+    background-color: #ed2f59!important;
+    font-weight: 400;
+}
+
+#apresentacao p {
+    color: #ed2f59;
+    font-weight: 400;
+    font-family: 'Lato'
+}
+
+#apresentacao hr {
+    border-color: #ed2f59;
+}
+
+.jumbotron p {
+    font-weight: bold !important;
+}
+
+#textoApres {
+    font-family: 'LondonMM';
+}
+
+#rodape {
+    background-color: #a1a1a1;
+    color: #fff;
+}
+
+#rodape ul {
+    list-style: none;
+}
+
+#rodape ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#rodape ul li a:hover {
+    text-decoration: underline;
+}
+
+#rodape h4 {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.imgRodape {
+    width: 60%;
+}
+
+.nav-item a {
+    color: #000;
+}
+
+.tab-pane a {
+    color: #000;
+}
+
+.tresp {
+    font-size: 50px;
+    font-family: none;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    color: #a1a1a1;
+}
+
+.forms {
+    border: none!important;
+    border-bottom: 2px solid #030303!important;
+}
+
+.formulario button {
+    font-family: Lato;
+    color: #000!important;
+    border-color: #ed2f59!important;
+    background-color: transparent!important;
+    font-size: 1.5em;
+}
+
+.formulario {
+    background-color: #ebebeb;
+}
+
+.formulario h3 {
+    font-family: 'Lato';
+    font-size: 24px;
+}
+
+.formulario label {
+    font-family: 'Lato';
+    font-size: 1.3em;
+}
+
+.formulario input {
+    background-color: #ebebeb;
+}
+
+.formulario button:hover {
+    color: #fff;
+    border-color: #ed2f59;
+    background-color: #ed2f59!important;
+}
+
+.rodapeImg {
+    height: 30px;
+}
+
+#s4w-nav ul .nav-item-agencia a:hover {
+    border: none;
+    border-bottom: 3px solid #ed2f59;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-agencia a[aria-selected=true] {
+    border: none;
+    border-bottom: solid #ed2f59;
+    background-color: transparent!important;
+    color: #000
+}
+
+#s4w-nav ul .nav-item-clientes a:hover {
+    border: none;
+    border-bottom: solid #ff0;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-clientes a[aria-selected=true] {
+    border: none;
+    border-bottom: solid #ff0;
+    background-color: transparent!important;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-oquefazemos a:hover {
+    border: none;
+    border-bottom: solid green;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-oquefazemos a[aria-selected=true] {
+    border: none;
+    border-bottom: solid green;
+    background-color: transparent!important;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-gerenegocios a:hover {
+    border: none;
+    border-bottom: solid #00f;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-gerenegocios a[aria-selected=true] {
+    border: none;
+    border-bottom: solid #00f;
+    background-color: transparent!important;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-aprenda a:hover {
+    border: none;
+    border-bottom: solid gray;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-aprenda a[aria-selected=true] {
+    border: none;
+    border-bottom: solid gray;
+    background-color: transparent!important;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-faleconosco a:hover {
+    border: none;
+    border-bottom: solid #a9a9a9;
+    background-color: transparent;
+    color: #000;
+}
+
+#s4w-nav ul .nav-item-faleconosco a[aria-selected=true] {
+    border: none;
+    border-bottom: solid #a9a9a9;
+    background-color: transparent!important;
+    color: #000;
+}
+
+#s4w-nav:not(:hover) ul a {
+    border-bottom: 0;
+}
+
+#pills-tabContent {
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+#s4w-nav:hover {
+    background-color: #fff!important;
+}
+
+#tab-agencia a, #tab-aprenda a, #tab-clientes a, #tab-faleconosco a, #tab-gerenegocios a, #tab-oQueFazemos a {
+    padding: 5px;
+}
+
+#tab-agencia a:hover, #tab-aprenda a:hover, #tab-clientes a:hover, #tab-faleconosco a:hover, #tab-gerenegocios a:hover, #tab-oQueFazemos a:hover {
+    text-shadow: 0.5px 0.5px dimgray;
+    text-decoration: none;
+}
+
+#menuIcon {
+    height: 30px;
+}
+
+.submenu:hover{
+    text-decoration: none;
+}
+
+.contatoRodape {
+    font-size: 20px;
+}
+
+#pills-tab {
+    max-height: 95vh;
+}
